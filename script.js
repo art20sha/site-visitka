@@ -7,7 +7,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 
   const text = `Новое сообщение с сайта:%0AИмя: ${name}%0AEmail: ${email}%0AСообщение: ${message}`;
 
-  const token = "ВАШ_ТОКЕН_БОТА";
+  const token = "8377863718:AAEjAa_fw0lJVseXLaoUY5zZVWELISDtFLg";
   const chat_id = "5925170010";
 
   const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${text}`;
